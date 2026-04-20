@@ -1,14 +1,12 @@
 # Program penghitung umur
 
-umur = int(input("Masukkan umur anda: "))
+umur = int(input("masukan umur anda:  "))
 
-if umur >= 18:
-    print("anda cukup umur")
-elif umur < 18:
-    print("anda belum cukup umur")
-elif umur < 0:
+if umur < 0:
     print("anda belum lahir")
 elif umur > 60:
-    print("banyakin ibadah, bentar lagi mati")
-
-print("Program selesai")
+    print("usia lanjut")
+elif umur >= 18:
+    print("anda cukup umur")
+else:
+    print("anda belum cukup umur")
